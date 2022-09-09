@@ -1,2 +1,2 @@
-# Pythagorean Calculator
-A python file or .py file that gives all combinations of a Pythagorean Triple when a number is specified
+# Prototype Ideas and Scripts
+A repository that contains many file scripts to solve different problems
