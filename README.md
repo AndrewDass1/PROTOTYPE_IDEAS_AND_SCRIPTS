@@ -1,2 +1,2 @@
 # Prototype Ideas and Scripts
-A repository that contains many file scripts to solve different problems
+A repository that contains scripts written by myself to solve different problems
