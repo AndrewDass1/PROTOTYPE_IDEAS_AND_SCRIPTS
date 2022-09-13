@@ -21,7 +21,7 @@ elif absolute_value_number > 1:
         starting_value += 1
 
     if stores_composite_values == []:
-        print(str(absolute_value_number) + " is a prime number with multiples of :" + "\n" + "(" + str(absolute_value_number)+", 1)" + "\n" + "(1, " + str(absolute_value_number) + ")" )
+        print(str(absolute_value_number) + " is a prime number with the following multiples:" + "\n" + "(" + str(absolute_value_number)+", 1)" + "\n" + "(1, " + str(absolute_value_number) + ")" )
     else:
         print(str(absolute_value_number) + " is a composite number with the following multiples:")
         print( "("+str(absolute_value_number)+",", "1)")
