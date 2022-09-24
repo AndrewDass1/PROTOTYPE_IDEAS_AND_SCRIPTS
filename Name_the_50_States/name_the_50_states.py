@@ -14,24 +14,38 @@ correct_capital_list = []
 
 while correct_state_counter !=50 and correct_capital_counter !=50:
     entry = input("Enter a state or capital:")
+    entry = entry.lower()
+    entry = entry.capitalize()
 
     if entry in the_50_states and entry not in correct_state_list:
         print(entry + " is a state!")
         correct_state_counter += 1
         correct_state_list.append(entry)
-
-    if entry in the_50_capitals and entry not in correct_capital_list:
+    elif entry in the_50_capitals and entry not in correct_capital_list:
         print(entry + " is a capital!")
         correct_capital_counter += 1
         correct_capital_list.append(entry)
+    elif entry in correct_state_list or entry in correct_capital_list:
+        print(entry + " has already been entered.")
+    else:
+        print("Not a state or capital. Try again.")
 
 
+print("The State and Capital List:")
 for i in range(0, 50):
     num_increment = 0
-    print(the_50_states[num_increment])
-    print(the_50_states[num_increment])
+    number = 1
 
+    str_number = str(number)
+    print(str_number + ". " + the_50_states[num_increment], the_50_capitals[num_increment])
+    number += 1
+
+print("States and Capitals that was entered from first to last:")
 for i in range(0, 50):
     num_increment_2 = 0
-    print(correct_state_list[num_increment_2])
-    print(correct_capital_list[num_increment_2])
+    number2 = 1
+
+    str_number2 = str(number2)
+    print(str_number2 + ". State: " + correct_state_list[num_increment_2] + " Capital: "  + correct_capital_list[num_increment_2] )
+
+    number2 += 1
