@@ -27,7 +27,7 @@ def timer_countdown():
         print("Invalid response.")
         hours_to_seconds = int(input("How many seconds is needed to run the timer: "))
 
-    # Covnert days, hours and minutes all to seconds
+    # Convert days, hours and minutes all to seconds
     days_to_seconds = how_many_days * 24 * 60 * 60
     hours_to_seconds = how_many_hours * 60 * 60
     minutes_to_seconds = how_many_minutes * 60
