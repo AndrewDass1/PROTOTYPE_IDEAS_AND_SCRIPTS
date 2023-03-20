@@ -1,0 +1,2 @@
+# 20-20-20 Rule
+This script is to enable implementing the 20-20-20 rule into people's lifestyles if they often use a computer. For further context, if someone were to stare at their technological device for hours, they should consider using the 20-20-20 rule. After 20 minutes has passed, for the next 20 seconds, the person does not look at the screen but at a different object that is 20 feet away for them. The 20-20-20 rule is used to exercise the eyes.
