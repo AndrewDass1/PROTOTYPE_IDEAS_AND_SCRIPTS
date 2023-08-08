@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Completed Script
 import datetime, time
 import give_a_date_and_time
 
